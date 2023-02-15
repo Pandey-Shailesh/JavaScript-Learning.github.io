@@ -1,4 +1,9 @@
-//TODO: falsy values
+//TODO:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
+
+
+
+
+//falsy values
 
 // undefined
 // null
