@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #414141;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: aliceblue;
+    font-size: 44px;
+    text-align: center;
+    transition: 0.9s ease-in-out;
+}
