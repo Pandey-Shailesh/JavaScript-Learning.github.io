@@ -9,3 +9,23 @@ console.log(this);
     console.log(this);
  }
  sayName();
+
+
+ //part 2 for this Keyword
+
+
+ console.log(this);
+
+ var user ={
+   firstName :"Shailesh",
+   courseCount:4,
+   getCourseCount: function(){
+      console.log("Line 23", this);
+      function sayHello(){
+         console.log("hello");
+         console.log("line 26",this);
+      }
+      sayHello();
+   },
+ };
+ user.getCourseCount();
