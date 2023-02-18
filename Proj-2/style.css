@@ -1,0 +1,62 @@
+.red{
+    background-color: red;
+    height: 5vh;
+    width: 12vw;
+    margin: 5px;
+    cursor: pointer;
+
+}
+.violet{
+    background-color: violet;
+    height: 5vh;
+    width: 12vw;
+    margin: 5px;
+    cursor: pointer;
+
+}
+.orange{
+    background-color: orange;
+    height: 5vh;
+    width: 12vw;
+    margin: 5px;
+    cursor: pointer;
+
+}
+.green{
+    background-color: green;
+    height: 5vh;
+    width: 12vw;
+    margin: 5px;
+    cursor: pointer;
+
+}
+.yellow{
+    background-color: yellow;
+    height: 5vh;
+    width: 12vw;
+    margin: 5px;
+    cursor: pointer;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+   
+   
+}
+body{
+    background-color: #414141;
+}
+.center{
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 20vw;
+   
+}
