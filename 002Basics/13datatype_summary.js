@@ -47,3 +47,35 @@ console.log(typeof bigNumber);
 console.log(typeof names);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+//===========================================Memory===============================================================
+
+//stack (primitive) => we get the copy of that  declared values or variables  
+//Heap (Non-Primitive)=>we get the reference of the original value 
+
+
+//stack Memory
+let instaName = "car_t_o_on"
+let anothername = instaName
+anothername= "shailesh"
+
+console.log(instaName);
+console.log(anothername);
+
+
+
+//Heap Memory
+let user1 ={
+    email: "shailu@g.com",
+    upi:"user@ybl",
+}
+
+
+let user2 = user1
+
+user2.email ="user@google.com"
+
+console.log(user1.email);
+console.log(user2.email);
